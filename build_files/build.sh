@@ -16,12 +16,12 @@ dnf5 install -y lftp libcurl-devel libjpeg-turbo-devel libpng-devel libtiff-deve
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
-dnf5 -y copr enable elkhan/PyCharm
-dnf5 -y install pycharm-community
+#dnf5 -y copr enable elkhan/PyCharm
+#dnf5 -y install pycharm-community
 #dnf5 -y  copr disable elkhan/Pycharm
 
-dnf5 -y copr enable iucar/rstudio
-dnf5 -y install rstudio-desktop
+#dnf5 -y copr enable iucar/rstudio
+#dnf5 -y install rstudio-desktop
 #dnf5 -y copr disable iucar/rstudio
 
 # dnf5 -y install package
