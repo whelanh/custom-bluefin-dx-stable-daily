@@ -18,12 +18,12 @@ dnf5 install -y tmux kmymoney micro python3-pip r fish fontawesome-fonts-all fre
 # Use a COPR Example:
 
 # Not sure what this is for, but was in original build.sh
-dnf5 -y copr enable ublue-os/staging
+#dnf5 -y copr enable ublue-os/staging
 
 # Install a rstudio from a COPR repository
-dnf5 -y copr enable iucar/rstudio
-dnf5 -y install rstudio-desktop
-dnf5 -y copr disable iucar/rstudio
+#dnf5 -y copr enable iucar/rstudio
+#dnf5 -y install rstudio-desktop
+#dnf5 -y copr disable iucar/rstudio
 
 # Install cosmic desktop from a COPR repository
 #dnf5 -y copr enable ryanabx/cosmic-epoch
@@ -32,7 +32,7 @@ dnf5 -y copr disable iucar/rstudio
 
 # Disable COPRs so they don't end up enabled on the final image:
 # (again, not sure what this is for, but was in original build.sh)
-dnf5 -y copr disable ublue-os/staging
+#dnf5 -y copr disable ublue-os/staging
 
 #### Example for enabling a System Unit File
 
